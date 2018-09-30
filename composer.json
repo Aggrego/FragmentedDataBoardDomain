@@ -1,0 +1,30 @@
+{
+  "name": "aggrego/fragmented-data-board-domain",
+  "type": "library",
+  "description": "",
+  "minimum-stability": "dev",
+  "license": "BSD-3-Clause",
+  "keywords": [],
+  "authors": [
+    {
+      "name": "Tomasz Kunicki"
+    }
+  ],
+  "require": {
+    "php": ">=7.1",
+    "beberlei/assert": "^3.0",
+    "aggrego/fragmented-data-board": "dev-master",
+    "aggrego/aggregate-event-consumer": "dev-master"
+  },
+  "require-dev": {
+    "wikimedia/composer-merge-plugin": "1.4.*",
+    "behat/behat": "^3.4",
+    "timitao/behat-symfony-container": "^1.1",
+    "phpspec/phpspec": "^5.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Aggrego\\FragmentedDataBoardDomain\\": "src/"
+    }
+  }
+}
