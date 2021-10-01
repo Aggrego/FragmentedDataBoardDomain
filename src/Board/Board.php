@@ -68,7 +68,7 @@ class Board implements DomainBoard
         $this->pushEvent(new ShardUpdatedEvent($this->uuid, $shard));
     }
 
-    public function getUuid(): Uuid
+    public function getId(): Uuid
     {
         return $this->uuid;
     }

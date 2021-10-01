@@ -13,8 +13,7 @@
   "require": {
     "php": ">=7.1",
     "beberlei/assert": "^3.0",
-    "aggrego/fragmented-data-board": "dev-master",
-    "aggrego/aggregate-event-consumer": "dev-master"
+    "aggrego/fragmented-data-board": "dev-master"
   },
   "require-dev": {
     "wikimedia/composer-merge-plugin": "1.4.*",
